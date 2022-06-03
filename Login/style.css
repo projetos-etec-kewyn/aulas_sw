@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(105, 89, 68);
+}
+p{
+    color: white;
+}
+#bot{
+    background-color: tomato;
+    color: black;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+}
+a{
+    color: red;
+}
+p{
+    color: white;
+    text-align: center;
+}
+a,p{
+    font-size: 30px;
+}
+.form{
+    text-align: left;
+}
+img{
+    width: 400px;
+    margin-top: 200px;
+}
+#text{
+    font-size: 40px;
+}
