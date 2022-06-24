@@ -1,0 +1,17 @@
+<?php
+//Incluir o arquivo arquivo de conexão sempre que precisar acessar o SGBD
+include_once 'conecta.php';
+
+// SQL para apagar um registro
+$sql = "DELETE FROM alunos WHERE id=4";
+
+if(mysqli_query($conexao, $sql)){
+    echo 'Registro apagado com sucesso';
+}
+else{
+    echo 'Erro na remoção do registro: ' . mysqli_error($conexao);
+}
+
+//Fechar a conexão
+mysqli_close($conexao);
+?>
